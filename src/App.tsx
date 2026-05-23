@@ -33,19 +33,19 @@ export default function App() {
       <div className="relative z-10 flex flex-col">
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-2 text-teal-600">
-            <Stethoscope size={28} className="text-teal-600" />
-            <span className="text-xl font-bold tracking-tight text-slate-900">DentaBot<span className="text-teal-600">.AI</span></span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-2 text-teal-600 shrink-0">
+            <Stethoscope className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600 shrink-0" />
+            <span className="text-lg sm:text-xl font-bold tracking-tight text-slate-900">DentaBot<span className="text-teal-600">.AI</span></span>
           </div>
-          <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="bg-teal-600 hover:bg-teal-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all shadow-sm hover:shadow-md flex items-center gap-1.5">
-            Запросить демо <ChevronRight size={16} />
+          <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow-md flex items-center gap-1 shrink-0 whitespace-nowrap">
+            Запросить демо <ChevronRight size={16} className="shrink-0" />
           </a>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <main className="pt-32 pb-20 px-6">
+      <main className="pt-24 sm:pt-32 pb-16 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left: Copy */}
