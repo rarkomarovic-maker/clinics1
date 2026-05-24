@@ -12,9 +12,9 @@ export default function App() {
   ];
 
   const chatMessages = [
-    { role: 'bot', text: 'Здравствуйте! Я ИИ-ассистент стоматологии. Я могу проконсультировать вас и быстро записать на прием к нужному врачу. Что вас беспокоит?', time: '22:12' },
+    { role: 'bot', text: 'Здравствуйте! Я AI-ассистент стоматологии. Подскажу по услугам и помогу оставить заявку на прием. Что вас беспокоит?', time: '22:12' },
     { role: 'user', text: 'У меня сильная зубная боль, можно ли записаться на ближайшее окно?', time: '22:15' },
-    { role: 'bot', text: 'Сочувствую! Понимаю, как это тяжело. У нас есть свободное окно к дежурному терапевту завтра утром в 08:30. Записать вас?', time: '22:15' }
+    { role: 'bot', text: 'На завтра в 08:30 есть свободное окно к дежурному терапевту. Передать вашу заявку администратору для подтверждения записи?', time: '22:15' }
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function App() {
             <Stethoscope className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600 shrink-0" />
             <span className="text-lg sm:text-xl font-bold tracking-tight text-slate-900">DentaBot<span className="text-teal-600">.AI</span></span>
           </div>
-          <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow-md flex items-center gap-1 shrink-0 whitespace-nowrap">
+          <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="selection:bg-teal-900 selection:text-teal-50 bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all shadow-sm hover:shadow-md flex items-center gap-1 shrink-0 whitespace-nowrap">
             Запросить демо <ChevronRight size={16} className="shrink-0" />
           </a>
         </div>
@@ -55,16 +55,16 @@ export default function App() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
               </span>
-              Умный администратор для клиники
+              Умная онлайн-запись для клиники
             </div>
             <h1 className="text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mb-6">
-              ИИ-ассистент, который <span className="text-teal-600">записывает</span> пациентов 24/7
+              AI-ассистент для <span className="text-teal-600">стоматологической</span> клиники
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Автоматизируйте общение на сайте. Наш бот отвечает на вопросы, консультирует по услугам и <b>моментально записывает пациентов</b> в вашу учетную систему без участия администратора.
+              Пациенты получают быстрый ответ и удобный диалог вместо устаревших форм записи. AI-ассистент отвечает 24/7, помогает подобрать оптимальное время и передает <b>готовые заявки</b> администраторам.
             </p>
             <div className="flex justify-center lg:justify-start">
-              <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3.5 rounded-full text-base font-semibold transition-all shadow-[0_8px_30px_rgb(13,148,136,0.3)] hover:shadow-[0_8px_30px_rgb(13,148,136,0.5)] hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <a href="https://t.me/GreyPorsche" target="_blank" rel="noopener noreferrer" className="selection:bg-teal-900 selection:text-teal-50 bg-teal-600 hover:bg-teal-700 text-white px-8 py-3.5 rounded-full text-base font-semibold transition-all shadow-[0_8px_30px_rgb(13,148,136,0.3)] hover:shadow-[0_8px_30px_rgb(13,148,136,0.5)] hover:-translate-y-0.5 flex items-center justify-center gap-2">
                 Подключить клинику <ChevronRight size={18} />
               </a>
             </div>
@@ -128,7 +128,7 @@ export default function App() {
       {/* Integrations Full-Width Marquee */}
       <section className="border-y border-slate-200 bg-white py-12 overflow-hidden flex flex-col items-center select-none">
         <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-8 text-center px-6">
-          Полная интеграция в вашу систему:
+          Работает вместе с вашей учетной системой:
         </p>
         <div className="relative w-full flex items-center" style={{ maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)', WebkitMaskImage: '-webkit-linear-gradient(left, transparent, black 10%, black 90%, transparent)' }}>
           <div className="flex w-max animate-marquee space-x-16 items-center text-slate-300 font-bold text-2xl sm:text-3xl">
@@ -145,9 +145,9 @@ export default function App() {
       <section id="features" className="py-24 bg-slate-100/50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Больше записей, меньше рутины</h2>
+            <h2 className="text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Новый уровень сервиса на сайте</h2>
             <p className="text-slate-600 font-medium text-lg leading-relaxed">
-              ИИ-ассистент мгновенно отвечает на вопросы и бережно ведет пациентов от первого касания до визита, конвертируя трафик сайта в заполненное расписание врачей.
+              AI-ассистент создает комфортную среду для ваших пациентов, мгновенно отвечая на их вопросы и помогая предварительно организовать визит через удобный диалоговый интерфейс.
             </p>
           </div>
 
@@ -157,11 +157,11 @@ export default function App() {
                 <div className="w-14 h-14 bg-gradient-to-br from-teal-400 to-teal-600 text-white rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-teal-500/20 group-hover:scale-110 transition-transform">
                   <Activity size={26} strokeWidth={2.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Запись 24/7 без выходных</h3>
+                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Никаких потерянных заявок 24/7</h3>
               </div>
               <div className="p-8 pt-6 mt-auto bg-slate-50 rounded-b-3xl border-t border-slate-100">
                 <p className="text-slate-600 leading-relaxed font-medium">
-                  По статистике до 40% пациентов ищут врача после 21:00. Бот проконсультирует и подберет окошко в любое время суток.
+                  До 40% пациентов ищут врача после 21:00. AI-ассистент проконсультирует пользователя ночью и сохранит контакт пациента для клиники.
                 </p>
               </div>
             </div>
@@ -171,11 +171,11 @@ export default function App() {
                 <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-600 text-white rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-blue-500/20 group-hover:scale-110 transition-transform">
                   <Calendar size={26} strokeWidth={2.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Прямая интеграция в МИС</h3>
+                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Умная работа со слотами МИС</h3>
               </div>
               <div className="p-8 pt-6 mt-auto bg-slate-50 rounded-b-3xl border-t border-slate-100">
                 <p className="text-slate-600 leading-relaxed font-medium">
-                  Мы берем слоты из вашей базы (IDENT, StomX, Dental4Windows и др.) и создаем карточку. Никаких накладок и двойных записей.
+                  Ассистент помогает пациенту выбрать подходящее время из вашей системы (IDENT, StomX, Dental4Windows и др.) и передает администратору готовую заявку.
                 </p>
               </div>
             </div>
@@ -185,11 +185,11 @@ export default function App() {
                 <div className="w-14 h-14 bg-gradient-to-br from-indigo-400 to-indigo-600 text-white rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-indigo-500/20 group-hover:scale-110 transition-transform">
                   <MessageSquare size={26} strokeWidth={2.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Эмпатия и знание услуг</h3>
+                <h3 className="text-2xl font-bold text-slate-900 tracking-tight leading-snug">Conversational UX</h3>
               </div>
               <div className="p-8 pt-6 mt-auto bg-slate-50 rounded-b-3xl border-t border-slate-100">
                 <p className="text-slate-600 leading-relaxed font-medium">
-                  ИИ обучен на данных вашей клиники. Он знает прайс, квалификацию врачей и успокоит пациента при острой боли.
+                  Вместо скучных форм оставления контактов пациент получает живой диалог. Ассистент знает прайс, квалификацию врачей и четко ответит на вопросы.
                 </p>
               </div>
             </div>
