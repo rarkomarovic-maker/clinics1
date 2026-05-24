@@ -49,7 +49,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left: Copy */}
-          <div className="max-w-2xl">
+          <div className="max-w-2xl w-full">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 border border-teal-100 text-teal-700 text-xs font-semibold mb-6 uppercase tracking-wide">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
@@ -57,8 +57,8 @@ export default function App() {
               </span>
               Умная онлайн-запись для клиники
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6 break-words">
-              AI-ассистент для <span className="text-teal-600">стоматологической</span> клиники
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
+              AI-ассистент для <span className="text-teal-600">стома&shy;толо&shy;гической</span> клиники
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Пациенты получают быстрый ответ и удобный диалог вместо устаревших форм записи. AI-ассистент отвечает 24/7, помогает подобрать оптимальное время и передает <b>готовые заявки</b> администраторам.
