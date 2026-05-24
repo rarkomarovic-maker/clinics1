@@ -58,7 +58,7 @@ export default function App() {
               Умная онлайн-запись для клиники
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
-              AI-ассистент для <span className="text-teal-600">стома&shy;толо&shy;гической</span> клиники
+              <span className="whitespace-nowrap">ИИ-ассистент</span>, который <span className="text-teal-600">записывает</span> пациентов 24/7
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Пациенты получают быстрый ответ и удобный диалог вместо устаревших форм записи. AI-ассистент отвечает 24/7, помогает подобрать оптимальное время и передает <b>готовые заявки</b> администраторам.
